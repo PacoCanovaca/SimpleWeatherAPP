@@ -6,13 +6,28 @@
 
 header {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header > img {
+    width: 50px;
 }
 
 main {
-    min-height: 70vh;
     text-align: center;
+}
+
+main > section {
+    padding-bottom: 30px;
+}
+
+main > section > img {
+    width: 100px;
+    padding: 10px;
 }
 
 footer {
